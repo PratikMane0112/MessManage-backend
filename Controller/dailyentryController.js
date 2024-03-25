@@ -1,5 +1,4 @@
 import DailyEntry from "../Models/DailyEntry.js";
-import bcrypt from 'bcrypt'
 import asyncHandler from 'express-async-handler'
 
 export const getUserEntryDetail = asyncHandler(async (req , res) => {

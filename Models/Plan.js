@@ -1,7 +1,4 @@
 import mongoose from 'mongoose'
-import autoIncrement from 'mongoose-auto-increment'
-// import validator from 'validator';
-
 
 const planSchema = new mongoose.Schema({
 

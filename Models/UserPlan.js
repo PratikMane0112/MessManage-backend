@@ -1,6 +1,5 @@
 import moment from "moment";
 import mongoose from "mongoose";
-import validator from "validator";
 
 const userplanSchema = new mongoose.Schema(
   {
