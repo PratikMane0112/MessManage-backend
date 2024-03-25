@@ -21,6 +21,7 @@ import { corsOptions } from './config/corsOptions.js'
 // import jwt  from 'jsonwebtoken';
 // create an express app for request-response
 const app = express()
+const PORT = process.env.PORT || 8000
 
 dotenv.config({path:'.env.example'})
 
@@ -116,4 +117,4 @@ app.get("/date" , async (req,res) => {
 })
 
 // listening app on given port
-app.listen(process.env.PORT , () => {console.log(`Server is running at ${process.env.PORT}....`)})
+app.listen(PORT , () => {console.log(`Server is running at ${PORT}`)})
